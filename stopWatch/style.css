@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    width: 100%;
+    background: #797979;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-direction: column; */
+}
+main .container{
+    min-height: 50vh;          
+    width: 35%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfdddb;
+    border-radius: 50px;
+    border:none;
+    outline: none;
+    margin:50px 0px;
+    box-shadow: 0px 0px 5px 17px lavender;
+}
+main .container h1{
+    position:relative;
+    bottom:30px;
+    font-size:xx-large;
+    font-weight: 900;
+}
+main .container .time{
+    height: 10vh;
+    width:50%;
+    /* border:2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    border-radius: 50px;
+    background-color: black;
+    color:white;
+}
+
+main .container .btn{
+    width:70%;
+    height:10vh;
+    /* border:2px solid red; */
+    margin:10px 10px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+main .container .btn .watchBtn{
+    height: 5vh;
+    width: 30%;
+    margin:0px 5px;
+    border-radius: 50px;
+    border:none;
+    outline: none;
+}
+main .container .btn #startBtn{
+    background-color: green;
+    color:white;
+}
+main .container .btn #stopBtn{
+    background-color: red;
+    color:white;
+}
+main .container .btn #resetBtn{
+    background-color: navy;
+    color:white;
+}
+main .container .btn #lapBtn{
+    background-color: lavender;
+    color:green;
+}
+main .listContainer{
+    min-height: 50vh;
+    width:20%;
+    border:2px solid red;
+    color: white;
+    background-color:chocolate;
+    border-radius: 50px;
+}
+main .listContainer #list{
+    display: flex;
+    align-items: center;
+    flex-direction:column-reverse;
+    list-style-type: none;
+    overflow: hidden;
+}
+main .listContainer h1{
+    text-align: center;
+    margin: 20px 20px;
+}
+main .listContainer #list li{
+    width: 100%;
+    height: 5vh;
+    margin: 5px 0;
+    background-color: red;
+    border-radius: 50px;
+    padding: 0.4rem;
+}
