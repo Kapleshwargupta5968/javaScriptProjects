@@ -61,7 +61,9 @@ window.addEventListener('keydown', (e) => {
     if ((/\d/).test(key)) {
         expression += key; updateDisplay(); return;
     }
-    if (key === 'Enter') { e.preventDefault(); calculate(); return; }
+    if (key === 'Enter') {
+        e.preventDefault(); calculate(); return;
+    }
     if (key === 'Backspace') {
         expression = expression.slice(0, -1); updateDisplay(); return;
     }
